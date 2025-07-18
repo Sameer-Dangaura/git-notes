@@ -1,9 +1,13 @@
-# Checking git version:
+# Git terminologies
+
+
+
+## Checking git version:
 * `git -- version`  
 
 
 
-# Repository
+## Repository
 
 - Repository is a folders name.
 
@@ -12,14 +16,14 @@
 - A repository is like a folder on your computer, but it is more than just a folder. It can contain other files, folders, and even other repositories.
 
 
-# To check folders status, type:
+## To check folders status, type:
 * `git status` 
 
 <!-- this command donot support everywhere, there are some cases/criteria to use this command. -->
 
 
 
-# Your config setting
+## Your config setting
 
 - Github has a lot of settings that you can change. You can change your username, email, and other settings. 
 
@@ -66,13 +70,13 @@ johndoe@gmail.com
 
 
 
-# Creating a repository
+## Creating a repository
 
 - Creating a repository is a process of creating a new folder on your system and initializing it as a git repository. 
 
 - It’s just regular folder to code your project, you are just asking git to track it.
 
-## While creating repository do follow:
+### While creating repository do follow:
 
 At 1st:
 * `git status`
@@ -84,7 +88,7 @@ At 1st:
 
 ---
 
-## 🤔 Is it necessary to do always first check: git status, Before creating repo ?
+### 🤔 Is it necessary to do always first check: git status, Before creating repo ?
 > Ans: Yes, it necessary to do always 1st check: git status , Before creating repo, NOT syntatically but sementically. 
 > Because if already existing repository is there then it could overwrite the already existing repository and your progresses and checkpoints could be lose, by the chances of 1%.
 
@@ -100,7 +104,7 @@ And 2ndly:
 
 ---
 
-## After git init, you can see a hidden folder (i.e. .git folder)   by using  Git Bash command:
+### After git init, you can see a hidden folder (i.e. .git folder)   by using  Git Bash command:
 
 * `ls -la`
 > for this explaination do visit "2)_Git_bash.md"
@@ -110,14 +114,14 @@ And 2ndly:
 
 
 
-# Entering Staging Area
+## Entering Staging Area
  
 - After   `git init`   to the selected working directory the next step is to entering the staging area.
 
 - **staging area**:  means Ready to work but not working OR,
 - everyone are reached to stage but the performance is not started ).
 
-# Stage
+## Stage
 >  Stage is a way to tell git to track a particular file or folder. 
 You can use the following command to stage a file:
 
@@ -141,7 +145,7 @@ After that, do check status of the current directory as you checked before git i
 
 
 
-# Commit:  (is a check point like in game.)
+## Commit:  (is a check point like in game.)
 
 - After the  git add   the next step is to    commit .
 
@@ -160,7 +164,7 @@ After that, do check again status of the current directory as you checked before
 
 
 
-## Suppose after the commit , later again we make changes to some file (let we make change to "temp_folder1/.git/temp_file2.txt") , 
+### Suppose after the commit , later again we make changes to some file (let we make change to "temp_folder1/.git/temp_file2.txt") , 
 > then you have to again check status:
 * `git status`: to know the current status of working directory.
 
@@ -202,7 +206,7 @@ and will show:
 
 
 
-# Logs
+## Logs
 
 * `git log`
 >  This command will show you the history of your repository. It will show you all the commits that were made to the repository. 
@@ -214,7 +218,7 @@ and will show:
 
 
 
-# .gitignore file
+## .gitignore file
 
 - Sometimes, we just don't need to add some files/folders to repository and github.
 - For that, we have to create a  '.gitignore' file    to the repository and we have to write that files/folders name to    '.gitignore' file . 
@@ -224,7 +228,7 @@ and will show:
 
 
 
-# .gitkeep file
+## .gitkeep file
 
 - Since, empty folder do not get tracked. 
 - So, to keep tracked empty folder we have to just add the `.gitkeep` file    to that empty folder.

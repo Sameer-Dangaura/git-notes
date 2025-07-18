@@ -18,14 +18,14 @@
 
 
 
-# HEAD in git
-:
+## HEAD in git
+
 - The    HEAD     is a pointer to the current branch that you are working on. It points to the latest commit in the current branch. When you create a new branch, it is automatically set as the HEAD of that branch.
   
 > The default branch used to be master(YOU can go to "temp_folder1/.git/HEAD" and check it out, What the head is pointing. NOT Officially checked by this way. Officially checked by: `git branch` command), but it is now called main. There is nothing special about main, it is just a convention.
 
 
-# Creating a new branch
+## Creating a new branch
 
 - To create a new branch, you can use the following command:
 
@@ -42,7 +42,7 @@
 > This command switches to the given branch name (HERE, given branch name is bug-fix).
 
 
-> ## Tip: Commit before switching to a branch, if you have to do.
+> Tip: Commit before switching to a branch, if you have to do.
 
 
 
@@ -53,13 +53,13 @@
 > This command switches to the master branch.
 
 ---
-## Note: After switched from another branch to master branch,                                                
+> Note: After switched from another branch to master branch,                                                
 > right now you not gonna see:                                       
 1) [ the commits of that previous branch in the master branch, if you do: `git log`    OR,   `git log --oneline` command.]                                  AND                                                      
 2) [ files in your repository of that previous branch in the master branch (since, we had created a temp_bug_fixes.txt file that not gonna be visible, while in master branch) ]. 
 
 
-## Q. Hmm... Why, we are not able to see the commits and files of that previous branch in the master branch ?
+### Q. Hmm... Why, we are not able to see the commits and files of that previous branch in the master branch ?
 >Ans:
 > Since, they are branches which makes the alternative line for them and donot interperate the main(master) branch.
 > i.e. The previous branch (we used previous branch as: bug-fix) makes separete line for itself.
@@ -98,12 +98,12 @@
 
 
 
-# Merging branches
+## Merging branches
 
 - Let's move on to merging branches, 
 
 
-## Q. Hmm... merging, why it is needed ?
+### Q. Hmm... merging, why it is needed ?
 >Ans:
 > In Git, merging is needed to combine changes from different branches into a single branch. This is crucial for collaborative development and maintaining a consistent codebase. Here are the main reasons:
 
@@ -143,7 +143,8 @@
 * `git merge bug-fix` 
 > This command merges the another branch (HERE, another branch is: bug-fix branch) into the main branch.
 ---
-> In this point of time, while I was learning. I did make note with picture in Microsoft OneNote. 
+In this point of time, while I was learning. I did make note with picture in Microsoft OneNote.
+
 ![Fast-forward merge](assets/4_Merging_fastForward.png)
 ---
 
@@ -165,14 +166,15 @@
 
 ---
 > In this point of time, while I was learning I did make note with picture in Microsoft OneNote. You can visit it in: "Git Branching"  or  You can visit screenshot: "4)_Merging_not_fastForward.png".  
+
 ![3 way merge](assets/4_Three_way_merge.png)
 ---
 
 
 
-# Conflicts
+## Conflicts
 
-## Q. If the command are same, what is the difference between fast-forward and not fast-forward merge?
+### Q. If the command are same, what is the difference between fast-forward and not fast-forward merge?
 > Ans:
 > - The difference is resolving the conflicts. 
 >
@@ -182,7 +184,7 @@
 > For pictorial example, do visit: [Chai aur Git](https://docs.chaicode.com)
 
 
-## Q. Conflicts! , Hmm... what is that and how it does occur?
+### Q. Conflicts! , Hmm... what is that and how it does occur?
 > Ans:
 >
 > - A conflict is a situation in which unacceptable differences in interests, expectations, values, and opinions occur in or between individuals or groups.
@@ -206,14 +208,14 @@ and done.
 
 
 
-# Rename a branch
+## Rename a branch
 
 - You can rename a branch using the following command:
 * git branch -m <old-branch-name> <new-branch-name>
 
 
 
-# Delete a branch
+## Delete a branch
 You can delete a branch using the following command:
 * git branch -d <branch-name>
 

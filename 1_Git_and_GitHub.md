@@ -1,3 +1,5 @@
+# Git and GitHub
+
 > Take reference from [Chai aur Git](https://docs.chaicode.com) simultaneously.
 
 <!--  
@@ -58,7 +60,7 @@ ________________
 Now let's started...
 
 
-# Don't be confuse between git and github.
+## Don't be confuse between git and github.
 
 * **Git**: is a software
 
@@ -67,7 +69,7 @@ Now let's started...
 
 
 
-# Git
+## Git
 
 Git is a **version control system** that is used to track changes to your files.
 
@@ -76,7 +78,7 @@ Git allows **checkpoints** like in game, which helps to go directly to points in
 
 
 
-## Version Control System (VCS) 
+### Version Control System (VCS) 
 
 VCS tracks files for changes 
 > (i.e. makes Checkpoints)
