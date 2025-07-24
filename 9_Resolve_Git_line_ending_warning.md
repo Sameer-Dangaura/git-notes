@@ -28,24 +28,24 @@ There are two solution:
 ✅ On Windows:
 - `git config --global core.autocrlf true`
 
-✅ Converts CRLF → LF when committing
-✅ Converts LF → CRLF when checking out (so files open nicely in Notepad, etc.)
-🟢 Git stores files with LF, but working copy uses CRLF (invisible to the user)
+- Converts CRLF → LF when committing.
+- Converts LF → CRLF when checking out (so files open nicely in Notepad, etc.).
+- Git stores files with LF, but working copy uses CRLF (invisible to the user).
 
 
 ✅ On Linux/macOS:
 - `git config --global core.autocrlf input`
 
-✅ Converts CRLF → LF on commit
-❌ Does not convert LF → CRLF on checkout
-🟢 Ideal for Unix systems
+- Converts CRLF → LF on commit.
+- Does not convert LF → CRLF on checkout.
+- Ideal for Unix systems.
 
 
 **🧠 How This Solves Your Problem:**
-✅ Keeps LF in the repository, no matter where users are working
-✅ Ensures platform-native line endings in their editors
-✅ Avoids .gitattributes
-⚠ Requires each contributor to set Git config properly
+- Keeps LF in the repository, no matter where users are working.
+- Ensures platform-native line endings in their editors.
+- Avoids .gitattributes .
+- Requires each contributor to set Git config properly.
 
 
 **📌Pros:**
@@ -71,8 +71,8 @@ Open Git Bash or Command Prompt and run:
 
 **🔍 What it does:**
 
-- Converts CRLF → LF when you commit (keeps repo clean)
-- Converts LF → CRLF when you checkout (matches Windows tools)
+- Converts CRLF → LF when you commit (keeps repo clean).
+- Converts LF → CRLF when you checkout (matches Windows tools).
 
 2. (Optional) Confirm the setting
 Run this command to make sure it’s set:
@@ -99,9 +99,9 @@ This step refreshes your working directory using the new config:
 **🎯 You’re Done!**
 
 From now on:
-- Files you edit will use CRLF on Windows
-- When committed, Git will store LF in the repo
-- You’ll avoid "CRLF will be replaced by LF" warnings
+- Files you edit will use CRLF on Windows.
+- When committed, Git will store LF in the repo.
+- You’ll avoid "CRLF will be replaced by LF" warnings.
 
 <!--
 🧠 Tip: Share with Teammates
