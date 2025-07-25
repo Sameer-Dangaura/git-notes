@@ -21,7 +21,7 @@ These are my personal Git notes. This collection can be helpful for:
 
 This note collection is created based on my learning from multiple sources, including:
 
-- **Chai aur Code** YouTube Channel – [Watch Git Playlist](https://www.youtube.com/@chaiaurcode)
+- **Chai aur Code** YouTube Channel – [Watch Git Playlist](https://www.youtube.com/watch?v=q8EevlEpQ2A&t=9256s)
 - **Chai aur Code Git Notes** – [Visit the Website](https://docs.chaicode.com)
 - **ChatGPT** – Used for clarifying concepts and answering questions that arose during my learning process
 
